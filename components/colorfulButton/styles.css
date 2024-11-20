@@ -1,0 +1,32 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#container {
+  background-color: rgb(40, 36, 44);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mainBtn {
+  padding: 20px 40px;
+  background-color: black;
+  color: lightgray;
+  font-family: "Source Code Pro", Courier, monospace;
+  font-size: 24px;
+  letter-spacing: 2px;
+  border: solid 4px;
+  border-image: linear-gradient(115deg, #fd9800, #630688) 1;
+}
+
+#mainBtn:hover {
+  border-image: linear-gradient(-115deg, #fd9800, #630688) 1;
+  padding: 25px 45px;
+  color: white;
+}
