@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  margin: 0; /* Usuń marginesy */
+  overflow: hidden;
+}
+.topnav {
+  position: fixed;
+  z-index: 1;
+  background-color: aliceblue;
+  width: 100%;
+  top: 0;
+  text-align: center;
+}
+
+.sidenav {
+  height: calc(100vh - 80px);
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: whitesmoke; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  margin-top: 80px;
+}
+
+.main {
+  box-sizing: border-box;
+  height: calc(100vh - 80px);
+  margin-left: 160px; /* Same as the width of the sidebar */
+  margin-top: 80px;
+  padding: 10px 10px;
+  background-color: beige;
+}
