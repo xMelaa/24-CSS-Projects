@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#container {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hide {
+  visibility: hidden;
+  position: absolute;
+}
+
+#searchBar {
+  padding: 15px 12px;
+  margin: 0 30px;
+  width: 30%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  transition: ease-in-out 0.5s;
+  font-size: 16px;
+}
+
+#searchBar:focus {
+  outline: none;
+  width: 100%;
+  border: 2px solid rgb(0, 132, 255);
+}
+
+#searchBar:focus::placeholder {
+  color: transparent;
+}
