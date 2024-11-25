@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#container {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#circle1 {
+  background-color: rgb(53, 53, 53);
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+#circle2 {
+  background-color: rgb(0, 174, 255);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#circle3 {
+  background-color: rgb(209, 0, 0);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#circle4 {
+  background-color: rgb(255, 238, 0);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}

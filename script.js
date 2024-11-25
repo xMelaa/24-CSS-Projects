@@ -41,3 +41,4 @@ loadComponent(
   "loading3",
   "./components/loadingAnimation3/loadingAnimation3.html"
 )
+loadComponent("archeryTarget", "./components/archeryTarget/archeryTarget.html")
