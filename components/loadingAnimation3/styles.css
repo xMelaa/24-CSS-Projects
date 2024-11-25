@@ -6,10 +6,25 @@ body {
 }
 
 #container {
-  background-color: rgb(88, 175, 107);
+  background-color: rgb(255, 255, 255);
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 30px solid rgb(202, 202, 202);
+  border-top: 30px solid purple;
+  animation: loading 1.5s linear infinite;
+}
+
+@keyframes loading {
+  100% {
+    transform: rotate(360deg);
+  }
 }
