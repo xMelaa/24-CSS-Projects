@@ -29,3 +29,15 @@ loadComponent(
 )
 loadComponent("searchBarLink", "./components/searchBar/searchBar.html")
 loadComponent("codePenLink", "./components/codepenTile/codepenTile.html")
+loadComponent(
+  "loading1",
+  "./components/loadingAnimation1/loadingAnimation1.html"
+)
+loadComponent(
+  "loading2",
+  "./components/loadingAnimation2/loadingAnimation2.html"
+)
+loadComponent(
+  "loading3",
+  "./components/loadingAnimation3/loadingAnimation3.html"
+)
