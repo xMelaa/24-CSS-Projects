@@ -23,9 +23,9 @@ body {
   flex-direction: column; */
 }
 
-.stripe {
+/* .stripe {
   flex-grow: 1;
-}
+} */
 
 #black {
   background-color: black;
