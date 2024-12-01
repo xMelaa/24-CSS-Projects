@@ -42,3 +42,5 @@ loadComponent(
   "./components/loadingAnimation3/loadingAnimation3.html"
 )
 loadComponent("wordCarousel", "./components/wordCarousel/wordCarousel.html")
+loadComponent("france", "./components/france/france.html")
+loadComponent("germany", "./components/germany/germany.html")
