@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#container {
+  background-color: rgb(190, 190, 190);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#flag {
+  width: 600px;
+  aspect-ratio: 5/3;
+  display: grid;
+  /* second way*/
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.stripe {
+  flex-grow: 1;
+}
+
+#black {
+  background-color: black;
+}
+
+#red {
+  background-color: #de0002;
+}
+
+#yellow {
+  background-color: #ffce00;
+}

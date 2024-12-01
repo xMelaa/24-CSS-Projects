@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#container {
+  background-color: rgb(190, 190, 190);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#flag {
+  width: 500px;
+  aspect-ratio: 3/2;
+  display: flex;
+}
+
+.stripe {
+  flex-grow: 1;
+}
+
+#blue {
+  background-color: #002495;
+}
+
+#white {
+  background-color: white;
+}
+
+#red {
+  background-color: #ed2938;
+}

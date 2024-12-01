@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#container {
+  background-color: rgb(190, 190, 190);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#flag {
+  width: 600px;
+  aspect-ratio: 3/2;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.horizontal {
+  display: grid;
+}
+
+#white {
+  background-color: white;
+}
+
+#red {
+  background-color: #fc3e32;
+}
+
+#green {
+  background-color: #007e39;
+}

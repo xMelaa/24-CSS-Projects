@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#container {
+  background-color: rgb(190, 190, 190);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#flag {
+  background-color: white;
+  width: 600px;
+  aspect-ratio: 3/2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#dot {
+  background-color: #bc022c;
+  height: 60%; /* 3/5 od flag size means 60% */
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
