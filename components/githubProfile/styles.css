@@ -28,7 +28,10 @@ body {
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid #2e343b;
-  margin-bottom: 10px;
+}
+
+#details {
+  margin: 15px 0;
 }
 
 #name {
@@ -49,7 +52,6 @@ body {
   border-radius: 5px;
   font-size: 16px;
   padding: 6px;
-  margin-bottom: 15px;
 }
 
 #editButton:hover {
