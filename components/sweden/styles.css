@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#container {
+  background-color: rgb(190, 190, 190);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#flag {
+  background-color: #0269a6;
+  width: 600px;
+  aspect-ratio: 8 / 5;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.cross {
+  background-color: #fecc00;
+}
+
+.cross1 {
+  grid-row: 5 / 7;
+  grid-column: 1 / 17;
+}
+
+.cross2 {
+  grid-row: 1 / 11;
+  grid-column: 6 / 8;
+}
