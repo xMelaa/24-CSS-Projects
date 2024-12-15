@@ -53,3 +53,17 @@ loadComponent("githubProfile", "./components/githubProfile/githubProfile.html")
 loadComponent("toggleSwitch", "./components/toggleSwitch/toggleSwitch.html")
 loadComponent("card1", "./components/aceOfSpades/aceOfSpades.html")
 loadComponent("card2", "./components/fourOfHearts/fourOfHearts.html")
+loadComponent(
+  "adjustableProgressBar",
+  "./components/adjustableProgressBar/adjustableProgressBar.html"
+)
+loadComponent(
+  "animatedProgressBar",
+  "./components/animatedProgressBar/animatedProgressBar.html"
+)
+loadComponent("flashcard", "./components/flashcard/flashcard.html")
+loadComponent("instaStories", "./components/instaStories/instaStories.html")
+loadComponent(
+  "githubContributions",
+  "./components/githubContributions/githubContributions.html"
+)
