@@ -7,10 +7,16 @@ body {
 .topnav {
   position: fixed;
   z-index: 1;
-  background-color: aliceblue;
+  background-color: rgb(43, 43, 43);
   width: 100%;
   top: 0;
   text-align: center;
+}
+
+h1 {
+  background: linear-gradient(45deg, rgb(255, 255, 255), rgb(0, 92, 128));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .sidenav {
@@ -20,10 +26,25 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: whitesmoke;
+  background-color: rgb(43, 43, 43);
   overflow-x: hidden;
   padding-top: 20px;
   margin-top: 80px;
+}
+
+li,
+a {
+  color: rgb(89, 139, 184);
+}
+
+li,
+a:visited {
+  color: rgb(199, 216, 231);
+}
+
+.topnav,
+.sidenav {
+  font-family: "Karla", "sans-serif";
 }
 
 .main {
@@ -31,5 +52,5 @@ body {
   height: calc(100vh - 80px);
   margin-left: 160px;
   margin-top: 80px;
-  background-color: beige;
+  background-color: rgb(73, 81, 97);
 }

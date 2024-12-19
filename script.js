@@ -63,7 +63,3 @@ loadComponent(
 )
 loadComponent("flashcard", "./components/flashcard/flashcard.html")
 loadComponent("instaStories", "./components/instaStories/instaStories.html")
-loadComponent(
-  "githubContributions",
-  "./components/githubContributions/githubContributions.html"
-)
