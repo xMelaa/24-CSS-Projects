@@ -24,7 +24,7 @@ body {
 
 .prog-status {
   background-color: red;
-  width: 10%;
+  width: 5%;
   height: 30px;
   border-radius: 50px;
   animation: 7s linear progress infinite;
