@@ -14,3 +14,37 @@ body {
   justify-content: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
+.progress-bar {
+  width: 500px;
+  height: 50px;
+  background-color: lightgray;
+  border-radius: 50px;
+}
+
+.prog-status {
+  background-color: red;
+  width: 25%;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.stage-1 {
+  width: 25%;
+  background-color: red;
+}
+
+.stage-2 {
+  width: 50%;
+  background-color: orangered;
+}
+
+.stage-3 {
+  width: 75%;
+  background-color: greenyellow;
+}
+
+.stage-4 {
+  width: 100%;
+  background-color: green;
+}
